@@ -1,0 +1,15 @@
+<h2>Albums</h2>
+
+<% if @albums.any? %>
+
+  <% @albums.each do |album| %>
+
+    <h3><%= link_to album.title, album_path(album) %></h3>
+
+  <% end %>
+
+<% else %>
+
+  <p>No albums have been created yet...</p>
+
+<% end %>

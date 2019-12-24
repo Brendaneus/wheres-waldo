@@ -1,0 +1,37 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one_one:
+  picture: one
+  character: one
+  x_coord: 1
+  y_coord: 1
+
+one_two:
+  picture: one
+  character: two
+  x_coord: 2
+  y_coord: 2
+
+one_three:
+  picture: one
+  character: three
+  x_coord: 3
+  y_coord: 3
+
+two_one:
+  picture: two
+  character: one
+  x_coord: 1
+  y_coord: 3
+
+two_two:
+  picture: two
+  character: two
+  x_coord: 2
+  y_coord: 2
+
+two_three:
+  picture: two
+  character: three
+  x_coord: 3
+  y_coord: 1

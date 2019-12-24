@@ -1,24 +1,4 @@
-# README
+# Where's Waldo
+## Point and click image search
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This is a Rails 6 application.  Source code tree may differ significantly from other Odin Project examples.  The most noticable differences are the dedicated javascript folder seperate from the rest of Rails' assets folder and the use of ActiveStorage in place of any outsourced image hosting solutions.

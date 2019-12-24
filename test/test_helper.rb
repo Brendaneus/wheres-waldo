@@ -6,8 +6,14 @@ class ActiveSupport::TestCase
   # Run tests in parallel with specified workers
   parallelize(workers: :number_of_processors)
 
+  Minitest::Reporters.use! Minitest::Reporters::SpecReporter.new
+
   # Setup all fixtures in test/fixtures/*.yml for all tests in alphabetical order.
   fixtures :all
 
   # Add more helper methods to be used by all tests here...
+
+  def login_as user
+    raise "TODO"
+  end
 end

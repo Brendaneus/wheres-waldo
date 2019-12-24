@@ -1,0 +1,15 @@
+<%= tag.h2 @album.title %>
+
+<% if @pictures.any? %>
+
+  <% @pictures.each do |picture| %>
+
+    <h3><%= link_to picture.title, album_picture_path(@album, picture) %></h3>
+
+  <% end %>
+
+<% else %>
+
+  <p>No pictures have been added to the album yet...</p>
+
+<% end %>

@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: Character One
+  scores: one_one, one_two, two_one, two_two
+
+two:
+  name: Character Two
+  scores: one_one, one_three, two_one, two_three
+
+three:
+  name: Character Three
+  scores: one_two, one_three, two_two, two_three
